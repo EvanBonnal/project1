@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<title> Calculatrice </title>
+</head>
+<body>
+<form method="POST" action="calcul.php">
+
+<fieldset>
+<label>op1 : </label>
+<input type="number" name="operande1" />
+<label for="operateur"></label>
+              <select name="operateur">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+              </select>
+<label>op2 : </label>
+<input type="number" name="operande2" />
+
+<input type="submit" value="Envoyer" /><br /><br />
+
+ <a href="http://127.0.0.1/index.html" type="button">Retour</a>
+</fieldset>
+</form>
+</body>
+</html>
